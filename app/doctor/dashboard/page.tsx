@@ -12,7 +12,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { LoadingSpinner } from '@/components/ui/loading-spinner';
 import { format } from 'date-fns';
-import { Filter, Calendar } from 'lucide-react';
+import { Filter, Calendar, Check, X } from 'lucide-react';
 
 export default function DoctorDashboard() {
   const [statusFilter, setStatusFilter] = useState('');

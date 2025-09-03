@@ -228,7 +228,7 @@ export default function RegisterPage() {
                       <SelectValue placeholder="Select your specialization" />
                     </SelectTrigger>
                     <SelectContent>
-                      {specializations.map((spec) => (
+                      {specializations.map((spec: string) => (
                         <SelectItem key={spec} value={spec}>
                           {spec}
                         </SelectItem>
